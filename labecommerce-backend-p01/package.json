@@ -1,0 +1,22 @@
+{
+  "name": "labecommerce-backend-p01",
+  "version": "1.0.0",
+  "description": "npm packages e inicio de node project",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "labecommerce backend",
+    "p-01",
+    "package e npm project"
+  ],
+  "author": "botechia-erika <mendoncabotechia@proton.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,1 @@
+console.log('start labcommerce p1')
