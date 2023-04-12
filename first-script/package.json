@@ -1,0 +1,22 @@
+{
+  "name": "first-script",
+  "version": "1.0.0",
+  "description": "primeiro projeto typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc index.ts && node index.js"
+  },
+  "keywords": [
+    "ts-backend",
+    "primeiro ts",
+    "dev dependencies",
+    "configuracoes"
+  ],
+  "author": "botechia-erika <mendoncabotechia@proton.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  }
+}
