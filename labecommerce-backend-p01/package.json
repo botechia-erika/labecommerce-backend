@@ -6,8 +6,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js bananinha",
+    "start1": "node pratica01.js",
+    "start2": "node pratica02.js b",
+    "start3": "node pratica03.js",
+    "fixacao1": "node fixacao1.js",
+    "dev": "nodemon index.js",
+    "paises": "nodemon pratica01.js"
   },
   "keywords": [
     "labecommerce backend",
