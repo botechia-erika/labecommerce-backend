@@ -17,8 +17,9 @@ console.log('*******TOYOTA********');
 console.log(buscarCarrosPorMarca(frota_1.frota, 'Toyota'));
 console.log('*******FORD********');
 console.log(buscarCarrosPorMarca(frota_1.frota, 'Ford'));
-console.log('*****FROTA COMPLETA SEM MARCA USANDO SIGNO DE ? ********');
+console.log('*****FROTA COMPLETA SEM MARCA REFATORA MARCA? ********');
 console.log(buscarCarrosPorMarca(frota_1.frota));
+console.log(buscarCarrosPorMarca(frota_1.frota, undefined));
 console.log('*******MARCA HYUNDAI NAO EXISTE = []********');
 console.log(buscarCarrosPorMarca(frota_1.frota, "Hyundai"));
 //# sourceMappingURL=index.js.map
