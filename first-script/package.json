@@ -4,6 +4,7 @@
   "description": "**Vamos utilizar esse repositório para as práticas da aula!**",
     "main": "index.js",
     "scripts": {
+      "start": "tsc && node ./build/index.js",
       "start-frota": "tsc && node ./build/tipando/index.js",
       "start-ex-1": "tsc && node ./build/fixacao/exercicio1/index.js",
       "start-ex-2": "tsc && node ./build/fixacao/exercicio2/index.js",
