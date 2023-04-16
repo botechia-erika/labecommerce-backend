@@ -1,0 +1,20 @@
+{
+  "name": "labecommerce-backend-p02",
+  "version": "1.0.0",
+  "description": "exercicios 1 a 3 do projeto referente a aula 2 parte 1 de typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./build/index.js"
+  },
+  "keywords": [
+    "projeto labcommerce tipado TS",
+    "BACK-END",
+    "typescript"
+  ],
+  "author": "botechia-erika <mendoncabotechia@proton.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

@@ -1,4 +1,5 @@
 # Logs
+task-list-backend   
 logs
 *.log
 npm-debug.log*
