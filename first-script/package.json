@@ -2,14 +2,14 @@
   "name": "first-script",
   "version": "1.0.0",
   "description": "**Vamos utilizar esse repositório para as práticas da aula!**",
-    "main": "index.js",
-    "scripts": {
-      "start": "tsc && node ./build/index.js",
-      "start-frota": "tsc && node ./build/tipando/index.js",
-      "start-ex-1": "tsc && node ./build/fixacao/exercicio1/index.js",
-      "start-ex-2": "tsc && node ./build/fixacao/exercicio2/index.js",
-      "start-ex-3": "tsc && node ./build/fixacao/exercicio3/index.js"
-    },
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./build/index.js",
+    "start-frota": "tsc && node ./build/tipando/index.js",
+    "start-ex-1": "tsc && node ./build/fixacao/exercicio1/index.js",
+    "start-ex-2": "tsc && node ./build/fixacao/exercicio2/index.js",
+    "start-ex-3": "tsc && node ./build/fixacao/exercicio3/index.js"
+  },
   "keywords": [
     "ts-backend",
     "primeiro ts",
