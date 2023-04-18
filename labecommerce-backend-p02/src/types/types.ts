@@ -1,21 +1,39 @@
 
-export type TPerson={
+export type TPerson = {
     id: string,
     name: string,
+    urlClient: string,
     email: string,
+    username: string,
     password: string,
+    cpf: string,
+    birthDate: string,
+    street: string,
+    streetNumber: string,
+    city: string,
+    state: string,
+    cep : string,
+    avatar: string
 }
     
     export type TProduct={
-        id: string,
+        idProduct: string,
         name: string,
-        price: number,
+    description:   string,
         category: string,
+        price:number,
+        discount: number,
+        img1: string,
+        img2: string,     
+        img3: string,       
+        brand: string,
+        principalList: string
     }
     
     
     export type TPurchase = {
-        userId: string,
+        personId: string,
+        ticketSaleId: string,
         productId: string,
         quantity: number,
         totalPrice: number,
