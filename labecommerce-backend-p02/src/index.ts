@@ -20,7 +20,7 @@ app.get("/users/list", (req: Request, res: Response) => {
 })
 
 
-app.get("/users/list", (req: Request, res: Response) => {
+app.get("/", (req: Request, res: Response) => {
     res.send({users: dataPersons});
 })
 
