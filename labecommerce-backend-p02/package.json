@@ -4,7 +4,7 @@
   "description": "exercicios 1 a 3 do projeto referente a aula 2 parte 1 de typescript",
   "main": "index.js",
   "scripts": {
-    "star": "tsc && nodemon build/index.js",
+    "start": "tsc && nodemon build/index.js",
     "dev": "ts-node-dev src/index.ts"
   },
   "keywords": [

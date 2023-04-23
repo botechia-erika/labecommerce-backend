@@ -1,4 +1,3 @@
-
 export type TPerson = {
     id: string,
     name: string,
@@ -50,14 +49,24 @@ export type TPerson = {
       views: number
     }
 /*TYPES VERSAO TASKS*/
-    export type TUser={
+    export type TCrew={
         id:string,
-        name: string,
+        userName: string,
         email:string,
         password:string,
-    }
-        
-    export type TTasks={
+        role: ROLE
+        isADMIN: true
+}
+
+const AUTHOR=true
+const CLUB=false
+enum ROLE{
+  "AUTHOR",
+    "CLUB"
+}
+
+
+export type TTasks={
             idTT: string,
             title: string,
             description: string,
@@ -65,10 +74,20 @@ export type TPerson = {
             status:number,
     }
         
-        
-    export type TUserTasks = {
+        /*
+type TTaskWIP = {
             userId: string,
             idTT: string,
-    }
-        
-        
+            taskEdit: []{},
+            taskAttachments:[]{},
+            taskPriority: number,
+            initialEstimated: string,
+            currentEstimated: [],
+            finalDate: string,
+            currentTeam: [],
+            projectManager:[]{},
+            dailyUpdates: []{},
+            taskItems: []{},
+            checkList:[]{}
+    }*/
+

@@ -7,6 +7,12 @@ const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
 const dataProducts_1 = require("./data/dataProducts");
 const dataPersons_1 = require("./data/dataPersons");
+const club1 = {
+    id: "club0",
+    userName: "user club",
+    email: "meu_email@gmail.com",
+    role: 1
+};
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use((0, cors_1.default)());
