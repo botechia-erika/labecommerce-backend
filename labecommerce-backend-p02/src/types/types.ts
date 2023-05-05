@@ -1,3 +1,13 @@
+const AUTHOR=true
+const CLUB=false
+enum Role{
+  "Admin"=AUTHOR,
+    "Normal"=CLUB
+}
+
+
+
+
 export type TPerson = {
     id: string,
     name: string,
@@ -12,9 +22,11 @@ export type TPerson = {
     city: string,
     state: string,
     cep : string,
+    role: ROLE
     avatar: string
 }
-    
+
+
     export type TProduct={
         idProduct: string,
         name: string,
@@ -56,13 +68,6 @@ export type TPerson = {
         password:string,
         role: ROLE
         isADMIN: true
-}
-
-const AUTHOR=true
-const CLUB=false
-enum ROLE{
-  "AUTHOR",
-    "CLUB"
 }
 
 

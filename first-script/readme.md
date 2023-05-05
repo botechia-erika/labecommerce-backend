@@ -1,3 +1,9 @@
+---
+noteId: "fddd5450e25d11edb1bdf5abc5c53f18"
+tags: []
+
+---
+
 # Clase A047 - PROJETO FIRST SCRIPT
 - realizado durante praticas da clases a047
 - consta em raiz do repo com .gitignore de 3 pastas 

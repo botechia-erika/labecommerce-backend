@@ -9,7 +9,7 @@ const club1={
     id:"club0",
     userName: "user club",
     email: "meu_email@gmail.com",
-    role: 1
+    role: "NORMAL"
 }
 const app = express();
 

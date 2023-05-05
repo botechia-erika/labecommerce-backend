@@ -15,7 +15,8 @@ export const dataPersons : TPerson[] = [
     city: "Santo André",
     state: "SP",
     cep : "9080380",
-    avatar: "https://i.ibb.co/XC0LwBn/avatar-girl-green.png"
+    avatar: "https://i.ibb.co/XC0LwBn/avatar-girl-green.png",
+    role: "Normal"
 },
 {
     id: "cr2",
@@ -31,10 +32,8 @@ export const dataPersons : TPerson[] = [
     city: "Santo André",
     state: "SP",
     cep : "09041-000",
-    avatar: "https://i.ibb.co/yf3w8cm/avatar-rock.jpg"
-},
-{
-    id: "cr3",
+    avatar: "https://i.ibb.co/yf3w8cm/avatar-rock.jpg",
+    role:"Normal"},{    id: "cr3",
     name: "Vitor Araujo Ribeiro",
     urlClient: "vitinho94",
     email: "leticinhA182@gmail.com",
@@ -47,8 +46,7 @@ export const dataPersons : TPerson[] = [
     city: "Santo André",
     state: "SP",
     cep : "09060-050",
-    avatar: "https://i.ibb.co/F6PssGn/man-avatar.png"
-}
-
+    avatar: "https://i.ibb.co/F6PssGn/man-avatar.png",
+    role:"Admin"}
 ]
     
